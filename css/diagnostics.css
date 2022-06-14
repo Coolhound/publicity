@@ -1,0 +1,1 @@
+.dg-diagnostic::after{text-transform:uppercase;content:"xs"}@media (min-width: 576px){.dg-diagnostic::after{content:"sm"}}@media (min-width: 768px){.dg-diagnostic::after{content:"md"}}@media (min-width: 992){.dg-diagnostic::after{content:"lg"}}@media (min-width: 1200px){.dg-diagnostic::after{content:"xl"}}@media (min-width: 1400px){.dg-diagnostic::after{content:"xxl"}}

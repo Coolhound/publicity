@@ -1,0 +1,53 @@
+// Media Queries
+
+.dg-diagnostic {
+    &::after {
+        text-transform: uppercase;
+        content: "xs";
+    }
+}
+
+// @include media-breakpoint-up(sm)
+@media (min-width: 576px) {
+    .dg-diagnostic {
+        &::after {
+            content: "sm";
+        }
+    }
+}
+
+// @include media-breakpoint-up(md) 
+@media (min-width: 768px) {
+    .dg-diagnostic {
+        &::after {
+            content: "md";
+        }
+    }
+}
+
+// @include media-breakpoint-up(lg)
+@media (min-width: 992) {
+    .dg-diagnostic {
+        &::after {
+            content: "lg";
+        }
+    }
+}
+
+// @include media-breakpoint-up(xl)
+@media (min-width: 1200px) {
+    .dg-diagnostic {
+        &::after {
+            content: "xl";
+        }
+    }
+}
+
+// @include media-breakpoint-up(xxl)
+@media (min-width: 1400px) {
+    .dg-diagnostic {
+        &::after {
+            content: "xxl";
+        }
+    }
+}
