@@ -28,6 +28,7 @@ export function viewportDiagnostic(bDiagnose) {
     }
     else
     {
-        diagnosticContent.style.display = "none";
+        // No need to rename this reference - it's in the client HTML
+        diagnosticContainer.style.display = "none";
     }
 }
